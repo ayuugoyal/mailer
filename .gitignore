@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+.env
+
+# Output of build tools
+build/
+bin/
+
+# Ignore Go module files
+vendor/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debugging files
+*.log
+
+# Temporary files
+*.tmp
+*.out
+
+# Generated files by Go tools
+*.test
+*.prof
+*.cover
+coverage.out
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Dependency security lockfile (optional, if not used)
+go.sum
