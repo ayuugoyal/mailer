@@ -94,7 +94,7 @@ func main() {
 		if success {
 			log.Printf("Email sent to %s (%s)\n", company.Name, company.Email)
 		} else {
-			log.Fatalf("Failed to send email to %s (%s)\n", company.Name, company.Email)
+			log.Printf("Failed to send email to %s (%s)\n", company.Name, company.Email)
 		}
 	}
 
